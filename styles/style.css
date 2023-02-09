@@ -149,8 +149,9 @@
 
 /* Positive ariya Style */
 .gradiant-bg {
-    background-image: url("../images/watch.png"), url("../images/banner/banner3.png");
-    background-image: linear-gradient(to right, #e77d53, #e8d3cb), url('../images/click.jpg');
+    background-image: url('../images/watch.png');
+    /* background-image: url("../images/watch.png"), url("../images/banner/banner3.png");
+    background-image: linear-gradient(to right, #e77d53, #e8d3cb), url('../images/click.jpg'); */
     height: 200px;
     align-items: center;
     width: 700px;
