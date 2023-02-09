@@ -1,0 +1,269 @@
+* {
+    /* Common Style */
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+}
+
+/* header Style */
+.header nav ul {
+    font-size: 15px;
+    font-weight: 700;
+    display: flex;
+    list-style: none;
+    padding-top: 20px;
+    margin-left: 70px;
+}
+
+.nav ul li a {
+    color: black;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 25px 15px;
+}
+
+.nav ul li a :hover {
+    background-color: #F15B22;
+    color: aliceblue;
+    margin: 10px 20px;
+    font-size: 25px;
+    font-weight: 600;
+
+}
+
+.header {
+    background-image: url("../images/banner/banner1.png");
+    height: 800px;
+    width: 100%;
+
+}
+
+.Right-side {
+    text-align: right;
+    padding: 250px 100px 100px 700px;
+}
+
+.header-title {
+    color: #151414;
+    font-weight: 700;
+    font-size: 35px;
+    padding: 10px 50px;
+    margin: 10px 5px;
+    text-align: right;
+
+}
+
+.header-description {
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 10px 50px;
+    margin: 10px 5px;
+    text-align: right;
+}
+
+.btn-header {
+    padding: 15px 25px;
+    border: none;
+    margin-right: 50px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    background-color: #F15B22;
+}
+
+/* My Failures */
+.my-failures-container {
+    display: flex;
+    margin-top: 50px;
+    padding: 80px 150px;
+}
+
+.half-width-image img {
+    height: 500px;
+    width: 400px;
+    padding: 10px 20px 10px 60px
+}
+
+.half-width-containt {
+    height: 300px;
+    width: 300px;
+    margin-top: 150px;
+    margin-left: 20px;
+    padding-left: 30px;
+}
+
+.half-width-title {
+    color: #151414;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+.half-width-description {
+    color: #444343;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/* My Plan Aria Style */
+.my-plans {
+
+    margin-top: 20px;
+}
+
+.my-plans-contaoner {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 5px;
+}
+
+.my-plan {
+    text-align: center;
+    margin: 5px 15px;
+    padding: 15px 15px;
+
+
+}
+
+.plans-header {
+    color: #151414;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.plans-title {
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #151414;
+}
+
+.let-start {
+    margin-top: 10px;
+    color: #737272;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+/* Positive ariya Style */
+.gradiant-bg {
+    background-image: url("../images/watch.png"), url("../images/banner/banner3.png");
+    background-image: linear-gradient(to right, #e77d53, #e8d3cb), url('../images/click.jpg');
+    height: 200px;
+    align-items: center;
+    width: 700px;
+    margin: 20px 280px 80px;
+    border-radius: 5px;
+}
+
+.section-containt {
+    height: 150px;
+    width: 300px;
+    text-align: left;
+    margin-left: 30px;
+    padding: 50px 20px;
+}
+
+.call-title {
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.btn-call-now {
+    color: #F15B22;
+    border-radius: 5px;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #FFFFFF;
+    border: none;
+}
+
+/* footer Section style */
+.flexible-div {
+    text-decoration: none;
+    display: flex;
+    margin-right: 10px;
+}
+
+.flexible-div a img {
+    margin-left: 15px;
+    height: 25px;
+    width: 25px;
+}
+
+.page-footer {
+    background-color: #151414;
+    height: 400px;
+    width: 100%;
+    display: flex;
+}
+
+.left-side {
+    margin: 60px 600px 60px 60px;
+    padding: 10px;
+}
+
+.right-side {
+    margin: 80px 100px;
+    padding: 30px;
+}
+
+.future {
+    color: #F8F8F8;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.description {
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.Email {
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.Phone {
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.subscribe-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+
+}
+
+.email-field {
+    color: #FFFFFF;
+    background-color: #151414;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    height: 30px;
+    width: 200px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.btn-subscribe {
+    color: #F15B22;
+    border-radius: 5px;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #FFFFFF;
+    border: none;
+}
